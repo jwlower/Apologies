@@ -39,7 +39,7 @@ export const UniverseGrid: React.FC<UniverseGridProps> = ({ universes }) => {
         >
           <GameBoardView
             board={boardState.board}
-            cellSize={Math.max(cellSize / (boardState.board.size || 8), 8)}
+            cellSize={Math.max(cellSize / (boardState.board.size || 8)*0.9, 8)}
             currentPlayer={boardState.currentPlayer}
             rngValue={boardState.rngValue}
           />

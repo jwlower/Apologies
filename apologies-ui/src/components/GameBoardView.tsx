@@ -34,13 +34,13 @@ export const GameBoardView: React.FC<GameBoardViewProps> = ({ board, cellSize = 
     <div
       style={{
         display: 'inline-block',
-        border: '2px solid #333',
+        border: '5px solid #333',
         background: '#fafafa',
         position: 'relative',
         width: size * cellSize,
         height: size * cellSize,
         boxSizing: 'content-box',
-        borderRadius: 8,
+        borderRadius: 2,
         overflow: 'hidden',
       }}
     >
